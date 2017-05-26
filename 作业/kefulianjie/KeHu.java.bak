@@ -1,0 +1,23 @@
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+public class KeHu {
+
+	public static void main(String[] args) {
+		Socket socket = null;
+		try {
+			socket = new Socket("192.168.199.165",8878);
+			PrintWriter pwr = new PrintWriter(socket.getOutputStream());
+			pwr.write("老中医\n");
+			pwr.flush();
+			//发
+			new Thread(new KeRunnable(socket)).start();
+			//收
+			new Thread(new KeRunnable2(socket)).start();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

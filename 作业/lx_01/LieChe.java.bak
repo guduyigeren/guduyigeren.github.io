@@ -1,0 +1,6 @@
+public class LieChe{
+	public static void main(String [] args){
+		HuoCheLei [] huocheleis = new HuoCheLei[3];
+		
+	}
+}

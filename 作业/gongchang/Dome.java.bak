@@ -1,0 +1,23 @@
+public class Dome{
+	public static void main(String [] args){
+		zhuban zb = Flash();
+		zb.usb();
+	}
+}
+interface zhuban{
+	void usb();	
+}
+class Flash implements zhuban{
+	public void usb(){
+		System.out.println("我是鼠标");
+	}
+
+	
+}
+class Print implements zhuban{
+	public void usb(){
+		System.out.println("我打印机");
+	}
+	
+}
+

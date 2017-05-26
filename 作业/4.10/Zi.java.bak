@@ -1,0 +1,9 @@
+public class Zi extends Fu{
+	public Zi(){
+    super(name,sex);
+	}
+    public void fangfa(){
+        System.out.println("´ó¼ÒºÃ£¡");
+        super.fangfa();
+    }
+}

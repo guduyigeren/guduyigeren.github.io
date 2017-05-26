@@ -1,0 +1,5 @@
+class Fa{
+	public fa(){
+		System.out.println("Im fa");
+	}
+}

@@ -1,0 +1,10 @@
+public class Dome{
+	public static void main(String [] args){
+		Yuan yuan = new Yuan();
+		yuan.Mianji();
+		yuan.Zhouchang();
+		Sanjiao sanjiao = new Sanjiao();
+		sanjiao.Zhouchang();
+		sanjiao.Mianji();
+	}
+}

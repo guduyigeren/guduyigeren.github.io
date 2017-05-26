@@ -1,0 +1,14 @@
+public class jioushu{
+	public static void main(String ages []){
+		int a,b;
+		for(a=1;a<200;a++){
+			b=2;
+			if(a%b==0){
+				System.out.println("偶数是"+a);
+			}else{
+				System.out.println("奇数是"+a);
+			}
+		}
+	}
+
+}

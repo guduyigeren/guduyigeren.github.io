@@ -1,0 +1,12 @@
+import java.util.*;
+public class Demo{
+	public static void main(String [] args){
+		Map<String,String> map=new HashMap<String,String>();
+		map.put("1","Monday");
+		map.put("one","Monday");
+		map.put("2","Tuesday");
+		map.put("3","Wensday");
+		System.out.println(map.get("1"));
+		System.out.println(map.get("one"));
+	}
+}

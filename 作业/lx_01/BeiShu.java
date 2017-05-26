@@ -1,0 +1,13 @@
+public class BeiShu{
+	public static void main(String [] args){
+		int a,b,c=0;
+		for(a=1;a<=100;a++){
+			b=3;
+			if(a%b==0){
+				System.out.println("三的倍数有"+a);
+				c++;
+			}	
+		}
+		System.out.println("100以内3的个数"+c);
+	}
+}

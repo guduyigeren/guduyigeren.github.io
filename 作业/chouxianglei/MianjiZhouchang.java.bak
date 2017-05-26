@@ -1,0 +1,4 @@
+abstract class MianjiZhouchang{
+	public void Mianji();
+	public void Zhouchang();
+}

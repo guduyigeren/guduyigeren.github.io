@@ -1,0 +1,14 @@
+//圆形周长面积
+class Yuan extends MianjiZhouchang{
+	double a = 3.14;
+	int b = 4;
+	double sum =0;
+	public void Mianji(){
+		sum=4*4*a;
+		System.out.println("我是圆的面积"+sum);
+	}
+	public void Zhouchang(){
+		sum=4*2*a;
+		System.out.println("我是圆的周长"+sum);
+	}
+}

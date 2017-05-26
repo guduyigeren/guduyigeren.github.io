@@ -1,0 +1,17 @@
+public class QianWu{
+	public static void main(String [] args){
+		int a,b,c=0;
+		for(a=1;a<100;a++){
+			
+				b=3;
+				if(a%b==0){
+					System.out.println("前5个三的倍数"+a);
+					c++;
+				}
+				if(c==5){
+					break;
+				}
+			}
+		
+	}
+}

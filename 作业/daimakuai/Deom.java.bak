@@ -1,0 +1,10 @@
+public class Deom{
+	public static void main(String [] agrs){
+		{
+			int x = 1;
+			System.out.println("普通代码块"+x);
+		}
+		int x = 99;
+		System.out.printn("代码块之外"+x);
+	}
+}

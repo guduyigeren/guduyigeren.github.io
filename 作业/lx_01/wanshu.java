@@ -1,0 +1,18 @@
+public class wanshu{
+	public static void main(String args []){
+		int a,b,c;
+		c=0;
+		for(a=1;a<1000;a++){
+			b=1;
+			c=0;
+			for(;b<a;b++){
+				if(a%b==0){
+					c=c+b;
+				}
+			}
+			if(c==a){
+				System.out.println("ÍêÊýÊÇ"+c);
+			}
+		}
+	}
+}

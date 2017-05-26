@@ -1,0 +1,10 @@
+public class HuoCheLei{
+	// 火车表信息
+	String name;		//火车名
+	String chexing;		//火车车型
+	String sudu;		//火车速度
+	
+	public HuoCheLei(String name,String chexing,)
+
+	
+}

@@ -1,0 +1,20 @@
+import java.net.*;
+import java.io.*;
+public class KeRunnable2 implements Runnable{
+	Socket st = null;
+	public KeRunnable2(Socket st){
+		this.st = st;
+	}
+	public void run(){
+		while (true){
+			try{
+				BufferedReader brr = new BufferedReader(new InputStreamReader(st.getInputStream()));
+				String fanhui = brr.readLine();
+				System.out.println("服务器端返回消息为"+fanhui);
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+			
+		}
+	}
+}

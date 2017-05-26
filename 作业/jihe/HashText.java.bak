@@ -1,0 +1,24 @@
+public class HashText{
+	private int i;
+	public int getl(){
+		return i;
+	}
+	public void setl(int i){
+		this.i=i;
+	}
+	public int hashCode(){
+		return i%10;
+	}
+	public final static void main(String [] args){
+		HashText a = new HashText();
+		HashText b = new HashText();
+		a.setl(1);
+		b.setl(1);
+		HashSet<HashText> set=new HashSet<HashText>();
+		set.add(a);
+		set.add(b);
+		System.out.println(a.hashCode() == b.hashCode());
+		System.out.println(a.equals(b));
+		System.out.println(set);
+	}
+}

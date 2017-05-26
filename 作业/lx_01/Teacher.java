@@ -1,0 +1,18 @@
+public class Teacher{
+	//教师信息表
+	String name;		//教师姓名
+	int age;		//教师年龄
+	char sex;		//教师性别
+	String zhuanye;		//教师所教专业
+	int yuexin;		//教师工资
+	public Teacher(String name,int age,char sex,String zhuanye,int yuexin){
+		this.name = name;
+		this.age = age;
+		this.sex = sex;
+		this.zhuanye = zhuanye;
+		this.yuexin = yuexin;
+	}
+	public void tcr(){
+		System.out.println("教师姓名:"+name+"\t年龄:"+age+"\t性别:"+sex+"\t所教专业:"+zhuanye+"\t月薪:"+yuexin);
+	}
+}

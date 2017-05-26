@@ -1,0 +1,3 @@
+class Son extends Fa{
+	
+}
